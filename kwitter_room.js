@@ -1,15 +1,17 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCwC-fCEqb4ZNPmMAiPg4AZgXBpF44YCi8",
-    authDomain: "kwitter-chat-proj.firebaseapp.com",
-    projectId: "kwitter-chat-proj",
-    storageBucket: "kwitter-chat-proj.appspot.com",
-    messagingSenderId: "336144727505",
-    appId: "1:336144727505:web:ee105c5436f53d7b92f4f0",
-    measurementId: "G-JKB82GM1R7"
-  };
-
-  // Initialize Firebase
+  apiKey: "AIzaSyCxMNTKNb8hVgu5CNtOqTXoCpjdOgHymA4",
+  authDomain: "kwitter-48ebe.firebaseapp.com",
+  databaseURL: "https://kwitter-48ebe.firebaseio.com",
+  projectId: "kwitter-48ebe",
+  storageBucket: "kwitter-48ebe.appspot.com",
+  messagingSenderId: "1060714411512",
+  appId: "1:1060714411512:web:66b3e23aed9ca5b4df920d"
+};
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
+      user_name = localStorage.getItem("user_name");
+      room_name = localStorage.getItem("room_name");
 
 //ADD YOUR FIREBASE LINKS
 

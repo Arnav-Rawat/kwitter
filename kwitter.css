@@ -22,3 +22,23 @@ button{
 body{
     background-color: lightseagreen;
 }
+
+.ee{
+    height: 100%;
+    width: 100%;
+}
+
+.page_logo{
+    height: 100px;
+    width: 120px;
+
+}
+
+.yu{
+    color: aliceblue;
+    font-weight: 750;
+}
+
+.y{
+    color: white;
+}
